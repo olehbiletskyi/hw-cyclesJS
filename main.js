@@ -130,5 +130,45 @@ alert(` Було ${array6}. Стало ${array6New} `);
 
 
 
-
 //7. Створити калькулятор який буде зациклений. Запитати у юзера 2 числа та знак , провести математичну операцію, далі вивести результат і спитатись чи хоче юзер повторити?
+
+let flag=true;
+
+let result;
+
+while (flag) {
+    console.log(flag)
+    flag = false;
+    console.log(flag)
+    let number1 = +prompt("Введіть перше число:");
+    let sign = prompt("Введіть потрібний знак: +, -, *, або / ")
+    let number2 = +prompt("Введіть друге число:");
+
+    switch (sign) {
+        case "+" : 
+            result = number1 + number2;
+            alert(result);
+        break;
+        case "-" : 
+            result = number1 - number2;
+            alert(result);
+        break;
+        case "*" : 
+            result = number1 * number2;
+            alert(result);
+        break;
+        case "/" : 
+            result = number1 / number2;
+            alert(result);
+        break;
+        default:
+            alert("Введено невірний знак");
+    }
+
+    let Q = confirm("Повторити?");
+    if (Q) {
+        flag = Q;
+    }
+
+}
+
