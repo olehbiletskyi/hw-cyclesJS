@@ -1,6 +1,6 @@
 
 //1.  Знайдіть суму всіх цифр від 1 до 100.
-/*
+
 let sum = 0;
 
 for (let i=1; i<101; i++) {
@@ -10,20 +10,19 @@ for (let i=1; i<101; i++) {
 alert(sum);
 
 
-*/
 
 
 
 
 //2.  Є масив [1, 2, 3, 4, 5]. З допомогою  цикла for вивести всі елементи на екран.
-/*
+
 myArray = [1, 2, 3, 4, 5];
 
 for ( let i=0; i <myArray.length; i++ ) {
     write = myArray[i];
     console.log(write);
 }
-*/
+
 
 
 
@@ -33,7 +32,7 @@ for ( let i=0; i <myArray.length; i++ ) {
 
 
 //3. Є масив [-1, 22, 3, 44, 5]. Виведіть максимальне значення
-/*
+
 someArray = [-1, 22, 3, 44, 5];
 maxEl = someArray[0];
 for (let i=0; i<someArray.length; i++) {
@@ -46,7 +45,7 @@ for (let i=0; i<someArray.length; i++) {
 console.log(someArray);
 console.log(maxEl);
 alert(maxEl);
-*/
+
 
 
 
@@ -56,7 +55,7 @@ alert(maxEl);
 
 //4. Попросити юзера ввести 8 чисел і порахувати скільки він ввів додатніх, відємних та нулів. Вивести статистику на екран. Також достатньо тільки 1 змінної для отримання даних від юзера.
 
-/*
+
 let numbers = [];
 let nuls = 0;
 let positive = 0;
@@ -82,7 +81,6 @@ console.log(positive);
 console.log(negative);
 alert(` нулів ${nuls}, додатних ${positive}, від"ємних ${negative} `);
 
-*/
 
 
 
@@ -92,13 +90,13 @@ alert(` нулів ${nuls}, додатних ${positive}, від"ємних ${ne
 
 
 //5. Надрукуйте табличку множення для числа  8 від 1 до 9. 8 х 1 = 8
-/*
+
 let eigth = 8;
 for (let i=1; i<10; i++) {
     let result = eigth * i;
     console.log(` 8 * ${i} = ${result} `);
 }
-*/
+
 
 
 
@@ -108,7 +106,7 @@ for (let i=1; i<10; i++) {
 
 //6. Є масив з елементами 2, 5, 9, 15, 0, 4. З допомогою цикла for і оператора if вивести на екран цифри, які більше 3-х, але менше 10.
 
-/*
+
 let array6 = [2, 5, 9, 15, 0, 4];
 let array6New = [];
 
@@ -122,7 +120,7 @@ console.log(array6New, "new");
 
 alert(` Було ${array6}. Стало ${array6New} `);
 
-*/
+
 
 
 
