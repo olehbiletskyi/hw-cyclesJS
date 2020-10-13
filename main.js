@@ -16,7 +16,7 @@ alert(sum);
 
 //2.  Є масив [1, 2, 3, 4, 5]. З допомогою  цикла for вивести всі елементи на екран.
 
-myArray = [1, 2, 3, 4, 5];
+let myArray = [1, 2, 3, 4, 5];
 
 for ( let i=0; i <myArray.length; i++ ) {
     write = myArray[i];
@@ -33,8 +33,8 @@ for ( let i=0; i <myArray.length; i++ ) {
 
 //3. Є масив [-1, 22, 3, 44, 5]. Виведіть максимальне значення
 
-someArray = [-1, 22, 3, 44, 5];
-maxEl = someArray[0];
+let someArray = [-1, 22, 3, 44, 5];
+let maxEl = someArray[0];
 for (let i=0; i<someArray.length; i++) {
     if (maxEl<someArray[i]) {
         maxEl = someArray [i];
